@@ -3,9 +3,25 @@ const app=express()
 const bodyparser=require("body-parser")
 const morgan=require("morgan")
 const cors=require("cors")
+const { connect } = require("mongoose");
+
 // import roytes 
 const auth=require("./routers/auth")
 // body parser 
+
+// databse connextion 
+const {DB}=require("./config/index")
+connect(
+  DB,
+  { useFindAndModify: true, useUnifiedTopology: true, useNewUrlParser: true },
+  (err, res) => {
+    if (err) {
+      throw err;
+    }
+    console.log("DB Connected");
+  }
+);
+
 app.use(bodyparser.urlencoded({extended:false}))
 
 

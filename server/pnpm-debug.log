@@ -1,0 +1,19 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "message": {
+      "name": "JSONError",
+      "fileName": "/home/amitrai/vscode/projects/gym/server/package.json",
+      "codeFrame": "\u001b[0m \u001b[90m 22 | \u001b[39m  }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 | \u001b[39m \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 | \u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 | \u001b[39m\u001b[0m",
+      "code": "ERR_PNPM_JSON_PARSE"
+    },
+    "err": {
+      "name": "JSONError",
+      "message": "Unexpected token } in JSON at position 477 while parsing near '...t\": \"^0.4.1\"  }, }' in /home/amitrai/vscode/projects/gym/server/package.json \n\n\u001b[0m \u001b[90m 22 | \u001b[39m  }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 | \u001b[39m \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 | \u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 | \u001b[39m\u001b[0m\n",
+      "code": "ERR_PNPM_JSON_PARSE",
+      "stack": "JSONError: Unexpected token } in JSON at position 477 while parsing near '...t\": \"^0.4.1\"  }, }' in /home/amitrai/vscode/projects/gym/server/package.json \n\n\u001b[0m \u001b[90m 22 | \u001b[39m  }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 | \u001b[39m \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 | \u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 | \u001b[39m\u001b[0m\n\n    at module.exports (/home/amitrai/.nvm/versions/node/v12.14.1/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.9.0/node_modules/pnpm/lib/node_modules/parse-json/index.js:29:21)\n    at Object.readJsonFile (/home/amitrai/.nvm/versions/node/v12.14.1/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.9.0/node_modules/pnpm/lib/node_modules/@pnpm/read-project-manifest/lib/readFile.js:28:19)\n    at async tryReadProjectManifest (/home/amitrai/.nvm/versions/node/v12.14.1/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.9.0/node_modules/pnpm/lib/node_modules/@pnpm/read-project-manifest/lib/index.js:31:32)\n    at async readProjectManifest (/home/amitrai/.nvm/versions/node/v12.14.1/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.9.0/node_modules/pnpm/lib/node_modules/@pnpm/read-project-manifest/lib/index.js:16:20)\n    at async Object.readProjectManifestOnly (/home/amitrai/.nvm/versions/node/v12.14.1/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.9.0/node_modules/pnpm/lib/node_modules/@pnpm/read-project-manifest/lib/index.js:24:26)\n    at async Object.readProjectManifestOnly (/home/amitrai/.nvm/versions/node/v12.14.1/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.9.0/node_modules/pnpm/lib/node_modules/@pnpm/cli-utils/lib/readProjectManifest.js:12:22)\n    at async Object.handler (/home/amitrai/.nvm/versions/node/v12.14.1/pnpm-global/3/node_modules/.pnpm/registry.npmjs.org/pnpm/4.9.0/node_modules/pnpm/lib/node_modules/@pnpm/plugin-commands-script-runners/lib/run.js:81:22)"
+    }
+  }
+}

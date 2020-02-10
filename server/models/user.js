@@ -18,6 +18,10 @@ const UserSchema = new Schema({
     default: "Player",
     enum: ["Player", "admin", "payment", "judge", "superadmin"]
   },
+  dob:{
+    type:Date,
+    required:true,
+  },
   password: {
     type: String,
     require: true

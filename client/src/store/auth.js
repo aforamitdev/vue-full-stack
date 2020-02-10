@@ -12,11 +12,18 @@ const state={
 
 const getters = {};
 
-const actions ={
-        async getData({commit}){
-                axios.get("http://localhost:5000/this").then(e=>{console.log(e); commit("setData",e.data)} )
-        }
-}
+const actions = {
+  async getData({ commit }) {
+    axios.get("http://localhost:5000/this").then(e => {
+      console.log(e);
+      commit("setData", e.data);
+    });
+  },
+ async postPlayerData({userData}){
+     console.log(userData)
+     axios.post("/api/v1/auth/players",userData);
+ }
+};
 
 const mutations={
     setData:(state,data)=>{
